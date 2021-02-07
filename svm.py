@@ -2,17 +2,15 @@
 """
 Created on Wed Jan 13 18:30:29 2021
 
-@author: lucho
+@author: Coumbiss
 """
 
 import pandas as pd
 import numpy as np
 import sklearn.metrics as sm
 import matplotlib.pyplot as plt
-from sklearn.cluster import KMeans
 from sklearn import datasets
 from sklearn.svm import SVC
-import sklearn.metrics as sm
 from sklearn import model_selection
 from sklearn import preprocessing 
 from sklearn import neighbors, metrics
