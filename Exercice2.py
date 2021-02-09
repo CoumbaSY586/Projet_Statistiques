@@ -167,7 +167,7 @@ coefs_lasso = []
 for alpha in alphas:  
     lasso = linear_model.Lasso(alpha=alpha, fit_intercept=False)
     lasso.fit(X, Y)
-    coefs_lasso.append(ridge.coef_)
+    coefs_lasso.append(lasso.coef_)
     
 coefs_lasso = np.array(coefs_lasso) 
 coefs_lasso = coefs_lasso.reshape(coefs_lasso.shape[0], -1)
